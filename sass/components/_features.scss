@@ -1,0 +1,30 @@
+.features__list {
+	@extend %flex;
+}
+
+.features-picture {
+    @extend %flex;
+    width: 270px;
+
+
+    &:not(:nth-child(n+4)) {
+        margin-right: $margin-block;
+    }
+
+    &__icon {
+        @extend %flex;
+        justify-content: center;
+        background-color:  #F5F4FA;
+        width: 270px;
+        height: 120px;
+        margin-bottom: 30px;
+    }
+
+    &__subtitle {
+        margin-bottom: 10px;
+        color: $primary-text-color;
+        font-size: $size-small;
+        line-height: 1.14;
+        text-transform: uppercase;
+    }
+}

@@ -1,0 +1,29 @@
+.clients__list {
+    display: flex;
+    justify-content: center;
+}
+
+.clients__item:not(:last-child) {
+    margin-right: 30px;
+}
+
+.clients-icon {
+    @include transitiontwo(border, fill);
+    
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 170px;
+    height: 92px;
+    border: 1px solid $icon-color;
+    border-radius: 4px;
+    fill: $icon-color;
+    cursor: pointer;
+
+    &:active,
+    &:hover,
+    &:focus {
+        border: 1px solid $icon-hover-backgr-color;
+        fill: $icon-hover-backgr-color;
+    }
+}
