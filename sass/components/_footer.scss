@@ -19,13 +19,13 @@
 
 .address {
     margin-top: 20px;
-}
 
-.address__item:not(:last-child) {
+    &__item:not(:last-child) {
     margin-bottom: 9px;
 }
+}
 
-.adress-link {
+.adress__link {
     @include adress-link($second-text-color);
 
     &--grey {
@@ -41,8 +41,8 @@
 .join {
 	display: flex;
 	flex-direction: column;
-// 	/* margin-right: 93px; */
 }
+
 .subtitle {
     margin-bottom: 20px;
 	text-align: left;
@@ -56,7 +56,7 @@
     margin-right: 10px;
 }
 
-.social-link--grey {
+.social__link--grey {
     @include social($second-text-color, rgba(255, 255, 255, 0.1));
 }
 

@@ -6,7 +6,7 @@
     margin-right: 30px;
 }
 
-.clients-icon {
+.clients__icon {
     @include transitiontwo(border, fill);
     
     @extend %flex-center;
