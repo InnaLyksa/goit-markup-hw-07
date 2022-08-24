@@ -134,7 +134,7 @@
 }
 
 .policy {
-	@extend %flex;
+	@extend %flex-wrap;
 
 	margin: 20px auto 30px auto;
 	font-size: $size-small;
@@ -147,6 +147,7 @@
 	&__link {
 		color: $accent-text-color;
 		margin-left: 5px;
+		text-decoration: underline;
 	}
 }
 

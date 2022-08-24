@@ -5,10 +5,14 @@
 }
 
 
-%flex {
+%flex-wrap {
     display: flex;
     flex-wrap: wrap;
     align-items: center;
+}
+%flex-center {
+    display: flex;
+    justify-content: center;
 }
 
 %button {

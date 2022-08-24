@@ -4,7 +4,7 @@
 
 .team__list,
 .social {
-    @extend %flex;
+    @extend %flex-wrap;
     justify-content: center;
 }
 

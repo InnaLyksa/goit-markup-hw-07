@@ -2,7 +2,7 @@
 .nav,
 .navigation,
 .contact__link {
-    @extend%flex;
+    @extend%flex-wrap;
 }
 .header {
     border-bottom: 1px solid  $header-line-color;
@@ -12,7 +12,7 @@
     }
 }
 
-@import "./logo";
+@import "../layouts/logo";
 
 .logo__txt--black {
     @include logo($black);
@@ -36,7 +36,7 @@
 }
 
 .info {
-    @extend%flex;
+    @extend%flex-wrap;
     margin-left: auto;
 }
 

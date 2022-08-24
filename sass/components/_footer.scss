@@ -11,7 +11,7 @@
     margin-right: 70px;
 }
 
-@import "./logo";
+@import "../layouts/logo";
 
 .logo__txt--white {
     @include logo($second-text-color);

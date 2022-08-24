@@ -1,6 +1,5 @@
 .clients__list {
-    display: flex;
-    justify-content: center;
+  @extend %flex-center;
 }
 
 .clients__item:not(:last-child) {
@@ -10,8 +9,7 @@
 .clients-icon {
     @include transitiontwo(border, fill);
     
-    display: flex;
-    justify-content: center;
+    @extend %flex-center;
     align-items: center;
     width: 170px;
     height: 92px;
