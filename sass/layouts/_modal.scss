@@ -161,7 +161,7 @@
 	border-radius: 2px;
 
 	.visually-hidden:checked + & {
-		background-image: url(/images/icon-check.svg);
+		background-image: url(../images/icon-check.svg);
 		background-color: $icon-hover-backgr-color;
 		background-size: contain;
 		background-repeat: no-repeat;
